@@ -1,0 +1,17 @@
+
+.cardsContainer {
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: auto;
+    height:100%;
+    margin: auto;
+    padding: 2em;
+    border-radius: 15px; 
+        
+};
+
+
+

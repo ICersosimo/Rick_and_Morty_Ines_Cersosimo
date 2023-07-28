@@ -32,7 +32,7 @@ const Form = ({ login }) => {
     
 
         <div className={style.container}>
-        <h1>Welcome to Rick and Morty's World!</h1>
+        {/* <h1>Welcome to Rick and Morty's World!</h1> */}
 
       <div className={style.form}>
         <label htmlFor="email">Email: </label>
@@ -45,7 +45,7 @@ const Form = ({ login }) => {
         />
         {errors.email && <p>{errors.email}</p>}
 
-        {/* <div className={style.password}> */}
+         <div className={style.password}> 
           <label htmlFor="password">Password: </label>
           <input
             type="password"
@@ -56,7 +56,7 @@ const Form = ({ login }) => {
           />
           {errors.password && <p>{errors.password}</p>}
 
-          {/* <div className={style.boton}> */}
+          <div className={style.boton}> 
             <button
               disabled={
                 !userData.email ||
@@ -69,8 +69,8 @@ const Form = ({ login }) => {
             </button>
         
           </div>
-        {/* </div>
-      </div> */}
+         </div>
+      </div> 
       </div>
     </form>
   );

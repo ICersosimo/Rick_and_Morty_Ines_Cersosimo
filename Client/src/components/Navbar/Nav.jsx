@@ -9,6 +9,8 @@ const Nav = ({onSearch}) => {
 
     <div className={style.nav}>
        <SearchBar onSearch={onSearch}/>
+
+       <div className={style.navButton}>
            
             <button>
                 <Link to="/home">Home</Link>
@@ -21,6 +23,7 @@ const Nav = ({onSearch}) => {
             <button>    
                 <Link to="/favorites">Favorites</Link>
             </button>
+            </div>
 
             
         </div>
